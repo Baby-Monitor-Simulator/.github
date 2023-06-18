@@ -1,3 +1,9 @@
+# SRC CODE OF PROJECT CAN BE FOUND ON THIS PAGE:
+- BACKEND: `S6BabyMonitor`
+- FRONTEND: `s6-baby-monitor-simulator-webui`
+
+Links to these repositories can be found below!
+
 # Baby Monitor Simulator
 This is the public repository containing all code related to the Baby Monitor Simulator.
 
