@@ -18,3 +18,5 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 * Symbolic math toolbox
 * Statistics and machine learning toolbox
 * Signal processing toolbox
+
+DOCS: https://github.com/Baby-Monitor-Simulator/docs
