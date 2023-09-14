@@ -1,7 +1,5 @@
 Contact: **Dainank**:
 - **GitHub**: _https://github.com/dainank_
-- **Email**: _439104@student.fontys.nl_ (depreciates 02/2024)
-- **Fontys Teams**: _Whelan,Ben B.L._ (depreciates 02/2024)
 
 # SRC CODE OF PROJECT CAN BE FOUND ON THIS PAGE:
 - BACKEND: `S6BabyMonitor`
