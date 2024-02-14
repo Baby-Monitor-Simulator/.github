@@ -1,5 +1,6 @@
 Contact: **Dainank**:
 - **GitHub**: _https://github.com/dainank_
+- **Email**: benjamin.lu.whelan@gmail.com
 
 # SRC CODE OF PROJECT CAN BE FOUND ON THIS PAGE:
 - BACKEND: `S6BabyMonitor`
