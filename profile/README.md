@@ -7,6 +7,10 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 * Statistics and machine learning toolbox
 * Signal processing toolbox
 
+# Setups
+## Setup Frontend
+> [https://github.com/Baby-Monitor-Simulator/wiki/wiki](https://github.com/Baby-Monitor-Simulator/frontend-webui?tab=readme-ov-file#project-setup)
+
 # Documentation
 > https://github.com/Baby-Monitor-Simulator/docs
 
