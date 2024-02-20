@@ -1,21 +1,14 @@
-Contact: **Dainank**:
-- **GitHub**: _https://github.com/dainank_
-- **Email**: benjamin.lu.whelan@gmail.com
-
-# SRC CODE OF PROJECT CAN BE FOUND ON THIS PAGE:
-- BACKEND: `S6BabyMonitor`
-- FRONTEND: `s6-baby-monitor-simulator-webui`
-
-Links to these repositories can be found below!
-
 # Baby Monitor Simulator
-This is the public repository containing all code related to the Baby Monitor Simulator.
+This is the public repository containing all source code and documentation related to the Baby Monitor Simulator.
 
 # Required MatLab extensions
-The following extensions are required to run the simulation `FMPmodel.m` (version 1, not 2).
-
+The following extensions are required to run the simulation `FMPmodel.m` (version 1, not 2):
 * Symbolic math toolbox
 * Statistics and machine learning toolbox
 * Signal processing toolbox
 
-DOCS: https://github.com/Baby-Monitor-Simulator/docs
+# Documentation
+> https://github.com/Baby-Monitor-Simulator/docs
+
+# Support
+> Contact **Dainank** - benjamin.lu.whelan@gmail.com
