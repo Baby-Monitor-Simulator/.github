@@ -9,7 +9,7 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 
 # Setups
 - [Frontend](https://github.com/Baby-Monitor-Simulator/frontend-webui?tab=readme-ov-file#project-setup)
-- [Backend](null)
+- [Backend](https://github.com/Baby-Monitor-Simulator/backend-matlab/tree/master?tab=readme-ov-file#setup)
 
 # Documentation
 > https://github.com/Baby-Monitor-Simulator/docs
