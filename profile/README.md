@@ -17,5 +17,8 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 # Wiki
 > https://github.com/Baby-Monitor-Simulator/wiki/wiki
 
+# FAQ
+> https://github.com/Baby-Monitor-Simulator/wiki/wiki/FAQ
+
 # Support
 > Contact **Dainank** - benjamin.lu.whelan@gmail.com
