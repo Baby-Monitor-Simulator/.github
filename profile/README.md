@@ -11,6 +11,10 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 - [Frontend](https://github.com/Baby-Monitor-Simulator/frontend-webui?tab=readme-ov-file#project-setup)
 - [Backend](https://github.com/Baby-Monitor-Simulator/backend-matlab/tree/master?tab=readme-ov-file#setup)
 
+# Static code analysis tool
+> https://sonarcloud.io
+* use provided github account
+
 # Documentation
 > https://github.com/Baby-Monitor-Simulator/docs
 
