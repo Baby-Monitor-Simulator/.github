@@ -13,7 +13,8 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 
 # Static code analysis tool
 > https://sonarcloud.io
-* use provided github account
+
+Use provided _GitHub_ account.
 
 # Documentation
 > https://github.com/Baby-Monitor-Simulator/docs
