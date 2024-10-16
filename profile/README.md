@@ -30,7 +30,9 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
 
 4. Build the first Dockerfile locally. Run the docker command:  
 > docker-compose -f docker-compose.dev.yml build 
+
 (if you are running into issues, you can rebuild the image after troubleshooting and using the following command, this makes the docker image download all dependencies again rather than what has already been downloaded previously)
+
 > docker-compose -f docker-compose.dev.yml build --no-cache
 
 5. Start the Services: Use the following command to start the microservices defined in the docker-compose.dev.yml file:
