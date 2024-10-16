@@ -56,6 +56,10 @@ Check status of running containers: docker ps
 
 To access a running containers shell: docker exec -it <container_id_or_name> /bin/sh
 
+### Important details
+
+* When changing the name of the jar file, go into the Dockerfile to make sure the name of the jarfile is properly reflected in the file.
+
 # Deployment
 
 - [Frontend](https://github.com/Baby-Monitor-Simulator/frontend-webui?tab=readme-ov-file#project-setup)
