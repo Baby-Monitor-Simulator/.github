@@ -12,8 +12,8 @@ The following extensions are required to run the simulation `FMPmodel.m` (versio
 1. Download the setup-microservices.ps1 file
 2. Open Powershell with administrator privileges (windows key + x)
 3. Run the script line by line:
-   3.1 Set-ExecutionPolicy RemoteSigned
-   3.2 .\setup-microservices.ps1
+   3.1  > Set-ExecutionPolicy RemoteSigned
+   3.2  > .\setup-microservices.ps1
 
 ### Working with Docker Compose
 
@@ -28,11 +28,13 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
 
 3. Start the Docker Desktop application
 
-4. Build the first Dockerfile locally. Run the docker command:  docker-compose -f docker-compose.dev.yml build 
-(if you are running into issues, you can rebuild the image after troubleshooting and using  docker-compose -f docker-compose.dev.yml build --no-cache this makes the docker image download all dependencies again rather than what has already been downloaded previously)
+4. Build the first Dockerfile locally. Run the docker command:  
+> docker-compose -f docker-compose.dev.yml build 
+(if you are running into issues, you can rebuild the image after troubleshooting and using the following command, this makes the docker image download all dependencies again rather than what has already been downloaded previously)
+> docker-compose -f docker-compose.dev.yml build --no-cache
 
 5. Start the Services: Use the following command to start the microservices defined in the docker-compose.dev.yml file:
-   docker-compose -f docker-compose.dev.yml up
+   > docker-compose -f docker-compose.dev.yml up
 
      The -f flag tells docker-compose to use a specific file. In this case, it's a file solely used for development. You might ask why: This setup of docker points the docker container to the application we're   
      running locally while still using all the dependencies and java version created in the image. This gives us the advantage of steady dependency management but allows us to develop locally and easily share 
@@ -48,13 +50,16 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
 
 Shutting down the services can be done by either pressing CTRL + C in the terminal where docker-compose up is running. Alternatively you can use docker-compose down
 
-Viewing the logs can be done using docker-compose logs or docker-compose logs  <service_name>
+Viewing the logs can be done using:
+> docker-compose logs or docker-compose logs  <service_name>
 
 Running Migrations or Initialization Scripts: If your services require database migrations or any initialization scripts, ensure that these are integrated within the services’ Dockerfiles or handled through entrypoint scripts. You may need to execute these after starting the containers or define specific commands in the docker-compose.yml.
 
-Check status of running containers: docker ps
+Check status of running containers: 
+> docker ps
 
-To access a running containers shell: docker exec -it <container_id_or_name> /bin/sh
+To access a running containers shell: 
+> docker exec -it <container_id_or_name> /bin/sh
 
 ### Important details
 
