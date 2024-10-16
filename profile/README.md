@@ -24,10 +24,14 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
    
    cd C:\Users\<YourUsername>\Desktop\microservices-dev
 
-2. Build the application using .\mvnw clean packages -DskipTests if this doesn't work go to Maven > lifecycle > package.
+2. Build the application using .\mvnw clean packages -DskipTests if this doesn't work go to Maven > lifecycle > package. The Jar generated in your Target folder will be used by the docker container to hot-reload while working on code.
 
+3. Start the Docker Desktop application
 
-3. Start the Services: Use the following command to start the microservices defined in the docker-compose.dev.yml file:
+4. Build the first Dockerfile locally. Run the docker command:  docker-compose -f docker-compose.dev.yml build 
+(if you are running into issues, you can rebuild the image after troubleshooting and using  docker-compose -f docker-compose.dev.yml build --no-cache this makes the docker image download all dependencies again rather than what has already been downloaded previously)
+
+5. Start the Services: Use the following command to start the microservices defined in the docker-compose.dev.yml file:
    docker-compose -f docker-compose.dev.yml up
 
      The -f flag tells docker-compose to use a specific file. In this case, it's a file solely used for development. You might ask why: This setup of docker points the docker container to the application we're   
@@ -36,9 +40,9 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
 
    This command will build the images (if not already built) and start the containers for each microservice.
 
-4. Accessing services: Each service can be accessed at the port defined in the docker-compose.yml file
+6. Accessing services: Each service can be accessed at the port defined in the docker-compose.yml file
 
-5. Hot Reloading: Changes made to the source code in the gateway-api or identity-service folders will automatically be reflected in the running containers due to the volume mounts defined in the docker-compose.yml file. This allows for a smoother development experience without needing to rebuild the containers.
+7. Hot Reloading: Changes made to the source code in the gateway-api or identity-service folders will automatically be reflected in the running containers due to the volume mounts defined in the docker-compose.yml file. This allows for a smoother development experience without needing to rebuild the containers.
 
 ### Docker Compose commands:
 
