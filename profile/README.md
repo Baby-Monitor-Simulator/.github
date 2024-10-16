@@ -36,9 +36,9 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
 5. Start the Services: Use the following command to start the microservices defined in the docker-compose.dev.yml file:
    > docker-compose -f docker-compose.dev.yml up
 
-     The -f flag tells docker-compose to use a specific file. In this case, it's a file solely used for development. You might ask why: This setup of docker points the docker container to the application we're   
-     running locally while still using all the dependencies and java version created in the image. This gives us the advantage of steady dependency management but allows us to develop locally and easily share 
-     with others.
+   The -f flag tells docker-compose to use a specific file. In this case, it's a file solely used for development. You might ask why: This setup of docker points the docker container to the application we're   
+   running locally while still using all the dependencies and java version created in the image. This gives us the advantage of steady dependency management but allows us to develop locally and easily share 
+   with others.
 
    This command will build the images (if not already built) and start the containers for each microservice.
 
