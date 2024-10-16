@@ -22,7 +22,7 @@ Once initial setup is complete, you can begin developing with Docker Compose. He
 1. Navigate to the Project Directory:
    Open a terminal (PowerShell or Command Prompt) and navigate to the `microservices-dev` folder:
    
-   cd C:\Users\<YourUsername>\Desktop\microservices-dev
+   > cd C:\Users\<YourUsername>\Desktop\microservices-dev
 
 2. Build the application using .\mvnw clean packages -DskipTests if this doesn't work go to Maven > lifecycle > package. The Jar generated in your Target folder will be used by the docker container to hot-reload while working on code.
 
