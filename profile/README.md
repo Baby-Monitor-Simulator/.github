@@ -63,7 +63,6 @@ To access a running containers shell:
 
 ### Important details & possible issues
 
-* When changing the name of the jar file, go into the Dockerfile to make sure the name of the jarfile is properly reflected in the file.
 * Make sure the entrypoint.sh and mvnw files are all saved using LF formatting. In intelliJ you see this in the bottom right, CRLF should be changed to LF. LF is the Linux way of formatting linebreaks. When copying these files to the docker file while building using the CRLF formatting, the docker container cannot run the file. This will result in a message saying it cannot find mvnw. 
 
 
