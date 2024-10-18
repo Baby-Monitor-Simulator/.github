@@ -65,8 +65,6 @@ To access a running containers shell:
 
 * Make sure the entrypoint.sh and mvnw files are all saved using LF formatting. In intelliJ you see this in the bottom right, CRLF should be changed to LF. LF is the Linux way of formatting linebreaks. When copying these files to the docker file while building using the CRLF formatting, the docker container cannot run the file. This will result in a message saying it cannot find mvnw. 
 
-
-
 # Deployment
 
 - [Frontend](https://github.com/Baby-Monitor-Simulator/frontend-webui?tab=readme-ov-file#project-setup)
@@ -76,12 +74,6 @@ To access a running containers shell:
 > https://sonarcloud.io
 
 Use provided _GitHub_ account.
-
-# Documentation
-> https://github.com/Baby-Monitor-Simulator/docs
-
-# Wiki
-> https://github.com/Baby-Monitor-Simulator/wiki/wiki
 
 # FAQ
 > https://github.com/Baby-Monitor-Simulator/wiki/wiki/FAQ
